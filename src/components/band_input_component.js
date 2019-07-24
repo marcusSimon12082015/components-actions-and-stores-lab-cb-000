@@ -7,7 +7,7 @@ export default class BandInputComponent extends Component {
 
   onSubmit(event){
     event.preventDefault();
-    console.log("NOMG I'm in teh onSubmit() functions")
+    this.props.store.dispatch({type: 'ADD_BAND', payload: {title: 'New Band'}})
   }
 
   render(){
