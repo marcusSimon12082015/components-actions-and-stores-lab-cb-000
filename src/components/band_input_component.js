@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 export default class BandInputComponent extends Component {
-  onSubmit(){
-
+  onSubmit(event){
+    event.preventDefault();
+    console.log("NOMG I'm in teh onSubmit() functions")
   }
 
   render(){
