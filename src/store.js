@@ -23,5 +23,5 @@ export default function createStore(reducer){
       return state;
     }
 
-    return {dispatch: dispatch, getState: getState}
+    return {dispatch: dispatch, getState: getState, subscribe: subscribe}
   }
