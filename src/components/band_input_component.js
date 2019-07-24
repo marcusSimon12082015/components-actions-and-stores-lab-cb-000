@@ -4,7 +4,7 @@ export default class BandInputComponent extends Component {
     super(props)
     this.onSubmit = this.onSubmit.bind(this)
   }
-  
+
   onSubmit(event){
     event.preventDefault();
     console.log("NOMG I'm in teh onSubmit() functions")
