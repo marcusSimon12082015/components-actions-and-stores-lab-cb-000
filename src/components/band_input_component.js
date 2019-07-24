@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 export default class BandInputComponent extends Component {
-  render(
+  render(){
     return(
         <div>
           <form>
@@ -10,5 +10,5 @@ export default class BandInputComponent extends Component {
           </form>
         </div>
     )
-  )
+  }
 }
