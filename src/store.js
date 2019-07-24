@@ -15,6 +15,10 @@ export default function createStore(reducer){
       render()
     };
 
+    const subscribe = (listener) => {
+      listeners.push(listener);
+    };
+
     function getState(){
       return state;
     }
